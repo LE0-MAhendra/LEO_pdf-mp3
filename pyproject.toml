@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pdf-mp3"
+version = "0.1.0"
+description = "makes pdf docs to mp3 files"
+authors = ["Leo-Mahendra <mahender.kurikyala11@gmail.com>"]
+readme = "README.md"
+packages = [{include = "pdf_mp3"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pysimplegui = "^4.60.5"
+pypdf2 = "^3.0.1"
+pyttsx3 = "^2.90"
+random-word = "^1.0.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
